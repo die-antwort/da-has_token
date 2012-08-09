@@ -6,7 +6,7 @@ A token generator for Rails 3 and Active Record.
 
 Put the following gem requirement in your `Gemfile`:
 
-    gem "da-has_token"
+    gem "da-has_token", "~> 1.0.1"
 
 ## Usage
 
