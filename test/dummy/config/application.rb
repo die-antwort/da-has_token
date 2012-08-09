@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
-require "has_token"
+require "da-has_token"
 
 module Dummy
   class Application < Rails::Application
