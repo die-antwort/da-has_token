@@ -27,7 +27,7 @@ end
 
 The token is set in a `before_create` callback. There is a possible race condition when checking if a newly generated token already exists – make sure to add an unique index to the `token` column in the database.
 
-A `NoMoreTokens` error is raised if a new unique token can not be generated within [`HasToken::TokenGenerator::MAX_TRIES`](https://github.com/die-antwort/da-has_token/blob/master/lib/has_token/token_generator.rb#L4).
+A `NoMoreTokens` error is raised if a new unique token can not be generated within [`HasToken::TokenGenerator::MAX_TRIES`](https://github.com/die-antwort/da-has_token/blob/master/lib/da-has_token/token_generator.rb#L4).
 
 There are similar plugins providing more features configuration options, e.g. https://github.com/mindbox/has_token.
 
