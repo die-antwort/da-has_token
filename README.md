@@ -1,12 +1,12 @@
 # da-has_token
 
-A token generator for Rails 3 and Active Record.
+A token generator for Rails 3 and Active Record (also works with Rails 4).
 
 ## Installation
 
 Put the following gem requirement in your `Gemfile`:
 
-    gem "da-has_token", "~> 1.0.1"
+    gem "da-has_token"
 
 ## Usage
 
@@ -18,10 +18,10 @@ class Entry < ActiveRecord::Base
   has_token
   
   # Use custom token size
-  # has_token :size => 25
+  # has_token size: 25
   
   # Use custom set of characters
-  # has_token :chars => "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  # has_token chars: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 end
 ```
 
