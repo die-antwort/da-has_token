@@ -1,6 +1,6 @@
 # da-has_token
 
-A token generator for Rails 3 and Active Record (also works with Rails 4).
+A token generator for Ruby on Rails 3 and Active Record.
 
 ## Installation
 
